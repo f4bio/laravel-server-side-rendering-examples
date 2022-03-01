@@ -1,0 +1,3 @@
+form.search {
+  @apply relative flex justify-center rounded overflow-hidden text-secondary-500;
+}

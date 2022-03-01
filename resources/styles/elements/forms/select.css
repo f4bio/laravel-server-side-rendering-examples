@@ -1,0 +1,7 @@
+.default-select {
+  @apply w-full text-base text-gray-light rounded;
+}
+
+.default-select:focus {
+  @apply border-brand-light ring ring-brand;
+}

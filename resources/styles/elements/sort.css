@@ -1,0 +1,64 @@
+.sort {
+  position: relative;
+  span {
+    white-space: nowrap;
+  }
+
+  & > .trigger {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    position: relative;
+    user-select: none;
+
+    .sort-menu {
+      display: none;
+      background: white;
+      position: absolute;
+      left: 0;
+      right: 0;
+
+      a,
+      li {
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    &.on {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 1;
+
+      &:focus {
+        outline: none;
+        z-index: 0;
+
+        & + .off {
+          z-index: 1;
+
+          .sort-menu {
+            display: block;
+          }
+        }
+      }
+    }
+
+    &.off {
+      width: 100%;
+      z-index: 0;
+
+      &:active {
+        outline: none;
+
+        .sort-menu {
+          display: block;
+        }
+      }
+    }
+  }
+}

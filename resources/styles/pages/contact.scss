@@ -1,0 +1,93 @@
+.contact {
+  textarea {
+    @apply appearance-none
+    rounded-none
+    relative
+    block
+    w-full
+    px-3
+    py-2
+    border
+    bg-slate-800
+    placeholder-slate-500
+    text-slate-800;
+  }
+
+  textarea:focus {
+    @apply outline-none
+    ring-accent-500
+    border-accent-500
+    z-10;
+  }
+
+  input {
+    @apply appearance-none
+    rounded-none
+    relative
+    block
+    w-full
+    px-3
+    py-2
+    border
+    bg-slate-800
+    placeholder-slate-500
+    text-slate-800;
+  }
+
+  input:focus {
+    @apply outline-none
+    ring-accent-500
+    border-accent-500
+    z-10;
+  }
+
+  select {
+    @apply appearance-none
+    rounded-none
+    relative
+    block
+    w-full
+    px-3
+    py-2
+    border
+    bg-slate-800
+    placeholder-slate-800
+    text-slate-800;
+  }
+
+  select:focus {
+    @apply outline-none
+    ring-accent-500
+    border-accent-500
+    z-10 ;
+  }
+
+  button {
+    @apply group
+    relative
+    w-full
+    flex
+    justify-center
+    py-2
+    px-4
+    border
+    border-transparent
+    text-sm
+    font-medium
+    rounded-md
+    text-slate-200
+    bg-primary-500;
+  }
+
+  button:focus {
+    @apply outline-none
+    ring-2
+    ring-offset-2
+    ring-accent-500;
+  }
+
+  button:hover {
+    @apply bg-primary-500;
+  }
+
+}

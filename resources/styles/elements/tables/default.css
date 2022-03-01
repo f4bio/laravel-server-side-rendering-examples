@@ -1,0 +1,7 @@
+.default-table {
+  @apply table w-full;
+}
+
+.default-table-header {
+  @apply text-xs uppercase whitespace-nowrap;
+}

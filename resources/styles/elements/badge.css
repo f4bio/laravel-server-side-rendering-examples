@@ -1,0 +1,25 @@
+input[type='checkbox'] {
+  & ~ label {
+    @apply cursor-pointer;
+  }
+
+  &:checked ~ label {
+    & > .disabled {
+      @apply hidden;
+    }
+  }
+
+  &:not(:checked) ~ label {
+    & > .enabled {
+      @apply hidden;
+    }
+  }
+}
+
+.icon-badge-red {
+  @apply inline-flex items-center px-1.5 py-0.5 bg-slate-200 rounded-full text-xs font-semibold leading-4 bg-red-500 bg-opacity-50;
+}
+
+.icon-badge-red:hover {
+  @apply bg-opacity-100;
+}

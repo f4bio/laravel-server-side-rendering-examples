@@ -1,0 +1,11 @@
+.default-textarea {
+  @apply w-full text-base border-gray text-gray rounded;
+}
+
+.default-textarea:focus {
+  @apply border-brand-light ring ring-brand;
+}
+
+.default-textarea:read-only {
+  @apply text-gray-light;
+}

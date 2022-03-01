@@ -1,0 +1,70 @@
+/* Primary Links */
+.primary-link {
+  @apply text-brand text-base;
+}
+
+.primary-link:hover {
+  @apply text-brand;
+}
+
+/* Dark Links */
+.dark-link {
+  @apply text-gray-dark text-base;
+}
+
+.dark-link:hover {
+  @apply text-black;
+}
+
+/* Light Links */
+.light-link {
+  @apply text-gray-light text-base;
+}
+
+.light-link:hover {
+  @apply text-white;
+}
+
+/* Blue Links */
+.info-link {
+  @apply text-info text-base;
+}
+
+.info-link:hover {
+  @apply text-info-dark;
+}
+
+/* Red Links */
+.danger-link {
+  @apply text-danger text-base;
+}
+
+.danger-link:hover {
+  @apply text-danger-dark;
+}
+
+/* Green Links */
+.success-link {
+  @apply text-success text-base;
+}
+
+.success-link:hover {
+  @apply text-success-dark;
+}
+
+/* External Links */
+.external-link {
+  @apply text-gray font-light m-1 p-1 text-base;
+}
+
+.external-link:hover {
+  @apply text-gray-dark font-bold;
+}
+
+.external-link:focus {
+  @apply text-gray-dark font-bold;
+}
+
+.external-link.active {
+  @apply text-gray-dark font-bold;
+}

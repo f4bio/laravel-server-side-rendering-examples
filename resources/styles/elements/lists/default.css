@@ -1,0 +1,11 @@
+.default-description-list {
+  @apply text-base;
+}
+
+.default-description-list-term {
+  @apply font-medium text-sm text-gray;
+}
+
+.default-description-list-element {
+  @apply mt-1 text-gray-dark text-base;
+}

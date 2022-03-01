@@ -1,0 +1,35 @@
+/* Red Floating Action Button */
+.red-floating-action-button {
+  @apply bg-danger text-white text-lg rounded-full shadow-lg shadow-gray transition ease-in-out duration-200 fixed;
+}
+
+.red-floating-action-button:hover {
+  @apply transform scale-105;
+}
+
+/* Green Floating Action Button */
+.green-floating-action-button {
+  @apply bg-success text-white text-lg rounded-full shadow-lg shadow-gray transition ease-in-out duration-200 fixed;
+}
+
+.green-floating-action-button:hover {
+  @apply transform scale-105;
+}
+
+/* Accent Floating Action Button */
+.accent-floating-action-button {
+  @apply bg-accent-500 text-white rounded-full shadow-lg shadow-gray transition ease-in-out duration-200 fixed;
+}
+
+.accent-floating-action-button:hover {
+  @apply transform scale-105;
+}
+
+/* Primary Floating Action Button */
+.primary-floating-action-button {
+  @apply bg-primary-500 text-white rounded-full shadow-lg shadow-gray transition ease-in-out duration-200 fixed;
+}
+
+.primary-floating-action-button:hover {
+  @apply transform scale-105;
+}

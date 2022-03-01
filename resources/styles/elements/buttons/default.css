@@ -1,0 +1,122 @@
+/* Primary Button */
+
+/* the fuck is this? Oo */
+/*
+[class*=-button] {
+  &:not([class*=toggle-button]) {
+    @apply inline-flex items-center px-4 py-2  w-full border rounded drop-shadow;
+
+    &.outlined {
+      @apply bg-white;
+    }
+  }
+}
+*/
+/* the fuck is this? Oo */
+
+
+/*
+.primary-button {
+  @apply bg-primary-500 border border-primary-400;
+
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    &:not([disabled]) {
+      @apply ring ring-primary-500 z-10;
+    }
+  }
+}
+
+.secondary-button {
+  @apply bg-secondary-500 border border-secondary-400;
+
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    &:not([disabled]) {
+      @apply ring ring-secondary-500 z-10;
+    }
+  }
+}
+
+.danger-button {
+  @apply bg-red-800 border border-red-700;
+
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    &:not([disabled]) {
+      @apply ring ring-red-800 z-10;
+    }
+  }
+}
+ */
+
+/* Brand Filled Button */
+.brand-button {
+  @apply flex items-center p-2 px-5 transition-colors duration-500 transform bg-brand text-gray-light text-lg rounded border-brand;
+}
+
+.brand-button:hover {
+  @apply bg-brand-dark;
+}
+
+.brand-button:focus {
+  @apply outline-none ring-1 ring-offset-1 ring-brand-light;
+}
+
+/* Danger Button */
+.danger-button {
+  @apply flex items-center py-2 px-5 transition-colors duration-500 transform bg-danger text-gray-light text-base rounded border;
+}
+
+.danger-button:hover {
+  @apply bg-danger-dark;
+}
+
+.danger-button:focus {
+  @apply outline-none ring-1 ring-offset-1 ring-brand-light;
+}
+
+/* Gray Button */
+.light-button {
+  @apply flex items-center p-2 pl-5 pr-5 transition-colors duration-500 transform bg-gray text-gray-dark text-base rounded border;
+}
+
+.light-button:hover {
+  @apply bg-gray-dark;
+}
+
+.light-button:focus {
+  @apply outline-none ring-1 ring-offset-1 ring-gray-light;
+}
+
+/* Success Button */
+.success-button {
+  @apply flex items-center p-2 pl-5 pr-5 transition-colors duration-500 transform bg-success text-gray-dark text-base rounded border;
+}
+
+.success-button:hover {
+  @apply bg-success-dark;
+}
+
+.success-button:focus {
+  @apply outline-none ring-2 ring-1 ring-offset-1 ring-success-light;
+}
+
+/* Warning Button */
+.warning-button {
+  @apply flex items-center p-2 pl-5 pr-5 transition-colors duration-500 transform bg-warning text-gray-dark text-base rounded border;
+}
+
+.warning-button:hover {
+  @apply bg-warning-dark;
+}
+
+.warning-button:focus {
+  @apply outline-none ring-2 ring-1 ring-offset-1 ring-warning-light;
+}

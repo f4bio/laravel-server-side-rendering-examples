@@ -1,0 +1,73 @@
+/* Primary Outline Button */
+.primary-outline-button {
+  @apply flex items-center p-2 pl-5 pr-5 bg-transparent border-2 border-brand text-brand text-lg rounded-lg transition-colors duration-700 transform;
+}
+
+.primary-outline-button:hover {
+  @apply bg-brand text-gray-500;
+}
+
+.primary-outline-button:focus {
+  @apply border-4 border-brand;
+}
+
+/* Danger Outline Button */
+.danger-outline-button {
+  @apply flex items-center p-2 pl-5 pr-5 transition-colors duration-500 transform bg-danger text-gray-300 text-lg rounded-lg border-danger;
+}
+
+.danger-outline-button:hover {
+  @apply bg-danger text-gray-500;
+}
+
+.danger-outline-button:focus {
+  @apply border-4 border-danger;
+}
+
+/* Green Outline Button */
+.green-outline-button {
+  @apply border
+  border-green-500
+  text-green-500
+  rounded
+  inline-flex
+  w-full
+  py-2
+  px-4
+  transition
+  duration-500
+  select-none;
+}
+
+.green-outline-button:hover {
+  @apply bg-green-500 text-slate-200;
+}
+
+.green-outline-button:focus {
+  @apply outline-none ring;
+}
+
+/* Red Outline Button */
+.red-outline-button {
+  @apply border
+  border-red-500
+  text-red-500
+  rounded
+  inline-flex
+  w-full
+  py-2
+  px-4
+  transition
+  duration-500
+  select-none;
+}
+
+.red-outline-button:hover {
+  @apply bg-red-500
+  text-slate-200;
+}
+
+.red-outline-button:focus {
+  @apply outline-none
+  ring;
+}

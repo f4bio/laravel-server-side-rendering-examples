@@ -1,0 +1,7 @@
+.primary-round-button {
+  @apply uppercase flex items-center bg-primary-500 font-semibold text-slate-200 max-w-max drop-shadow rounded-full;
+}
+
+.primary-round-button:hover {
+  @apply drop-shadow;
+}
